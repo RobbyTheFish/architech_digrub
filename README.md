@@ -5,7 +5,7 @@ bank_cbdc_data_architecture/
 │   └── conceptual_model.md           # Текстовое описание всех сущностей
 │
 ├── logical/
-│   ├── logical_data_flow.png         # Диаграмма взаимосвязей и потоков
+│   ├── ![alt text](image.png).png         # Диаграмма взаимосвязей и потоков
 │   └── logical_relationships.md      # Таблица связей, бизнес-процессов, правил
 │
 ├── physical/
@@ -25,10 +25,15 @@ bank_cbdc_data_architecture/
 │   ├── message_exchange.md           # Описание взаимодействия по XML API
 │   └── validation_rules.md           # Проверки до передачи в ЦБ (KYC, лимиты и т.д.)
 │
-├── analytics/
-│   ├── data_marts.md                 # Описание витрин и отчётов
-│   ├── etl_pipeline.md               # Как переносить данные в DWH
-│   └── example_queries.sql           # Примеры BI-запросов
+├──analytics/
+│   staging_tables.md           # структуры stg-таблиц
+│   raw_vault/
+│   ├── hubs_links_sats.dm      # схема DV (Mermaid/PlantUML)
+│   ├── create_hubs_links.sql   # DDL для hubs+links
+│   └── create_sats.sql         # DDL для satellites
+│   information_marts/
+│   ├── mart_transactions.sql   # DDL витрины транзакций
+│   └── mart_aml_reports.sql    # DDL AML-витрины
 │
 ├── pdf/
 │   └── bank_cbdc_architecture.pdf    # Основной документ PDF
