@@ -1,0 +1,13 @@
+<InstructionRequest>
+    <InstructionID>UUID</InstructionID>
+    <ClientID>UUID</ClientID>
+    <InstructionType>payment</InstructionType> <!-- payment | transfer -->
+    <Amount currency="RUB">1000.00</Amount>
+    <SourceWallet>UUID</SourceWallet>
+    <DestinationWallet>UUID</DestinationWallet>
+    <DestinationAccount>UUID</DestinationAccount>
+    <DestinationCard>UUID</DestinationCard>
+    <Description>Оплата за услуги</Description>
+    <ScheduledAt>2025-05-23T10:00:00Z</ScheduledAt>
+    <CreatedAt>2025-05-22T15:00:00Z</CreatedAt>
+</InstructionRequest>

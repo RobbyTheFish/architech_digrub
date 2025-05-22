@@ -1,0 +1,14 @@
+<TransactionResult>
+    <TransactionID>UUID</TransactionID>
+    <InstructionID>UUID</InstructionID>
+    <Status>completed</Status> <!-- pending | processing | completed | failed -->
+    <Amount currency="RUB">1000.00</Amount>
+    <ProcessedAt>2025-05-22T15:05:00Z</ProcessedAt>
+    <ResultCode>00</ResultCode> <!-- Код ответа платформы -->
+    <BalanceBefore>5000.00</BalanceBefore>
+    <BalanceAfter>4000.00</BalanceAfter>
+    <ErrorDetails>
+        <ErrorCode>01</ErrorCode>
+        <ErrorMessage>Недостаточно средств</ErrorMessage>
+    </ErrorDetails>
+</TransactionResult>
