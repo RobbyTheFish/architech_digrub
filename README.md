@@ -4,6 +4,7 @@ by мисис что-нибудь.
 
 ## Содержание
 В данном проекте представлена следующая структура:
+```
 bank_cbdc_data_architecture/
 ├── conceptual/
 │   ├── uml_class_diagram.png         # Диаграмма классов UML
@@ -39,7 +40,7 @@ bank_cbdc_data_architecture/
 │   └── bank_cbdc_architecture.pdf    # Основной документ PDF
 │
 └── README.md                         # Краткое описание структуры и как использовать
-
+```
 ##  Состав команды.
 - Озеров Ярослав — architect, analyst,
 - Селивёрстов Никита — architect,
