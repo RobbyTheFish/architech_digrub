@@ -5,7 +5,7 @@ by мисис что-нибудь.
 ## Содержание
 В данном проекте представлена следующая структура:
 ```
-bank_cbdc_data_architecture/
+doc/
 ├── conceptual/
 │   ├── uml_class_diagram.png         # Диаграмма классов UML
 │   └── conceptual_model.md           # Текстовое описание всех сущностей
